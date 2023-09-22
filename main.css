@@ -1,0 +1,66 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-vendas .nav-link.active:hover {
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: #000000;
+}
+
+.section-title {
+    font-family: Orbitron, cursive;
+}
+
+#sobre-games,
+#vendas {
+    background-color: #e6fa78;
+}
+
+.text-colored {
+    color: #000000;
+}
+
+.nav-vendas .nav-link.active,
+#fale-conosco button {
+    background-color: #0c38ff;
+    color: #000000;
+}
+
+.nav-vendas .nav-link:hover {
+    color: #000000;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+h4 {
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767) {
+    .casousel-item img {
+        height: 280px;
+    }
+}
